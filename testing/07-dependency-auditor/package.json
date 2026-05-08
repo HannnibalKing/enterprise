@@ -1,0 +1,23 @@
+{
+  "name": "@enterprise/dependency-auditor",
+  "version": "1.0.0",
+  "description": "Multi-ecosystem dependency vulnerability auditor: npm, pip, and Go. Parses CVE data, CVSS scores, and generates enterprise-grade remediation reports",
+  "main": "dist/index.js",
+  "bin": {
+    "dep-auditor": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}

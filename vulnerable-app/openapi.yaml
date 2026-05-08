@@ -1,0 +1,60 @@
+openapi: 3.0.3
+info:
+  title: Vulnerable Enterprise App API
+  version: 1.0.0
+  description: OpenAPI spec — intentionally mismatched from implementation for tool 02 testing
+
+paths:
+  /api/login:
+    post:
+      summary: User login
+      # VULN: No security scheme defined (tool 02 will flag)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [username, password]
+              properties:
+                username:
+                  type: string
+                  minLength: 3      # Tool 02 checks schema quality
+                  maxLength: 64
+                password:
+                  type: string
+                  minLength: 8
+      responses:
+        '200':
+          description: JWT token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+        '401':
+          description: Invalid credentials
+        # MISSING: 400 (bad request), 500 (server error) — tool 02 flags this
+
+  /api/profile:
+    get:
+      summary: Get current user profile
+      # MISSING: security requirement — tool 02 flags this
+      responses:
+        '200':
+          description: User profile
+          content:
+            application/json:
+              schema: {}    # VULN: empty schema — poor quality (tool 02)
+
+  /api/users:
+    get:
+      summary: List users
+      responses:
+        '200':
+          description: List of users
+
+  # MISSING from spec but exists in code: /api/calculate, /api/ping, /api/transfer
+  # Tool 02 will flag these as undocumented routes

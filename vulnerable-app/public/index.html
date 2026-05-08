@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Vulnerable App Frontend</title>
+  <!-- VULN: No CSP meta tag -->
+  <!-- VULN: No X-Frame-Options — clickjacking possible -->
+</head>
+<body>
+  <h1>Vulnerable Enterprise App</h1>
+  <p>⚠️ This frontend is deliberately insecure for security tool testing.</p>
+
+  <!-- VULN: XSS via innerHTML with URL param -->
+  <div id="search-result"></div>
+
+  <form id="login-form">
+    <input type="text" id="username" placeholder="username"/>
+    <input type="password" id="password" placeholder="password"/>
+    <button type="submit">Login</button>
+  </form>
+
+  <div id="output"></div>
+
+  <script>
+    // VULN: XSS — URL param reflected via innerHTML
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById('search-result').innerHTML = params.get('q') || '';
+
+    // VULN: JWT stored in localStorage (XSS-accessible)
+    document.getElementById('login-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const res = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          username: document.getElementById('username').value,
+          password: document.getElementById('password').value,
+        })
+      });
+      const data = await res.json();
+      // VULN: token stored in localStorage — accessible by any script
+      localStorage.setItem('token', data.token);
+      document.getElementById('output').textContent = 'Logged in! Token: ' + data.token;
+    });
+
+    // VULN: Hardcoded API key in frontend JS (exposed to all users)
+    const INTERNAL_API_KEY = 'sk_live_FAKE_KEY_FOR_DEMO_ONLY_xxxxx';
+
+    // VULN: eval of user-provided expression
+    function runCalc() {
+      const expr = document.getElementById('calc-input')?.value;
+      eval(expr);
+    }
+  </script>
+</body>
+</html>

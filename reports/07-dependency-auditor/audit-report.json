@@ -1,0 +1,123 @@
+{
+  "reportId": "deps-1778111158014",
+  "timestamp": "2026-05-06T23:45:58.014Z",
+  "rootDir": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app",
+  "results": [
+    {
+      "ecosystem": "npm",
+      "manifestFile": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\package.json",
+      "dependencies": [
+        {
+          "name": "jsonwebtoken",
+          "version": "<=8.5.1",
+          "type": "direct",
+          "ecosystem": "npm",
+          "vulnerabilities": [
+            {
+              "id": "1097690",
+              "title": "jsonwebtoken unrestricted key type could lead to legacy keys usage ",
+              "severity": "HIGH",
+              "cvssScore": 8.1,
+              "description": "https://github.com/advisories/GHSA-8cf7-32gw-wr33",
+              "affectedVersions": "<=8.5.1",
+              "fixedIn": "[object Object]",
+              "url": "https://github.com/advisories/GHSA-8cf7-32gw-wr33"
+            },
+            {
+              "id": "1097694",
+              "title": "jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC",
+              "severity": "HIGH",
+              "cvssScore": 5,
+              "description": "https://github.com/advisories/GHSA-hjrf-2m68-5959",
+              "affectedVersions": "<=8.5.1",
+              "fixedIn": "[object Object]",
+              "url": "https://github.com/advisories/GHSA-hjrf-2m68-5959"
+            },
+            {
+              "id": "1102458",
+              "title": "jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify()",
+              "severity": "HIGH",
+              "cvssScore": 6.4,
+              "description": "https://github.com/advisories/GHSA-qwph-4952-7xr6",
+              "affectedVersions": "<9.0.0",
+              "fixedIn": "[object Object]",
+              "url": "https://github.com/advisories/GHSA-qwph-4952-7xr6"
+            }
+          ]
+        }
+      ],
+      "vulnerable": [
+        {
+          "name": "jsonwebtoken",
+          "version": "<=8.5.1",
+          "type": "direct",
+          "ecosystem": "npm",
+          "vulnerabilities": [
+            {
+              "id": "1097690",
+              "title": "jsonwebtoken unrestricted key type could lead to legacy keys usage ",
+              "severity": "HIGH",
+              "cvssScore": 8.1,
+              "description": "https://github.com/advisories/GHSA-8cf7-32gw-wr33",
+              "affectedVersions": "<=8.5.1",
+              "fixedIn": "[object Object]",
+              "url": "https://github.com/advisories/GHSA-8cf7-32gw-wr33"
+            },
+            {
+              "id": "1097694",
+              "title": "jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC",
+              "severity": "HIGH",
+              "cvssScore": 5,
+              "description": "https://github.com/advisories/GHSA-hjrf-2m68-5959",
+              "affectedVersions": "<=8.5.1",
+              "fixedIn": "[object Object]",
+              "url": "https://github.com/advisories/GHSA-hjrf-2m68-5959"
+            },
+            {
+              "id": "1102458",
+              "title": "jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify()",
+              "severity": "HIGH",
+              "cvssScore": 6.4,
+              "description": "https://github.com/advisories/GHSA-qwph-4952-7xr6",
+              "affectedVersions": "<9.0.0",
+              "fixedIn": "[object Object]",
+              "url": "https://github.com/advisories/GHSA-qwph-4952-7xr6"
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total": 1,
+        "vulnerable": 1,
+        "critical": 0,
+        "high": 3,
+        "moderate": 0,
+        "low": 0
+      }
+    }
+  ],
+  "overallSummary": {
+    "totalDependencies": 1,
+    "totalVulnerable": 1,
+    "critical": 0,
+    "high": 3,
+    "moderate": 0,
+    "low": 0
+  },
+  "passed": false,
+  "remediationPlan": [
+    {
+      "package": "jsonwebtoken",
+      "ecosystem": "npm",
+      "currentVersion": "<=8.5.1",
+      "fixedIn": "[object Object]",
+      "action": "upgrade",
+      "priority": "SOON",
+      "vulnerabilities": [
+        "1097690",
+        "1097694",
+        "1102458"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4906 @@
+{
+  "scanId": "scan-1778111156537",
+  "timestamp": "2026-05-06T23:45:56.537Z",
+  "rootDir": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app",
+  "totalFiles": 705,
+  "totalLines": 94141,
+  "duration": 178,
+  "summary": {
+    "critical": 8,
+    "high": 25,
+    "medium": 13,
+    "low": 0,
+    "info": 0,
+    "total": 46
+  },
+  "results": [
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\accepts\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 239,
+      "duration": 2
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\anymatch\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 21,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\anymatch\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 105,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\append-field\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\append-field\\lib\\parse-path.js",
+      "vulnerabilities": [],
+      "linesScanned": 54,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\append-field\\lib\\set-value.js",
+      "vulnerabilities": [],
+      "linesScanned": 65,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\append-field\\test\\forms.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\array-flatten\\array-flatten.js",
+      "vulnerabilities": [],
+      "linesScanned": 65,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\balanced-match\\dist\\commonjs\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\balanced-match\\dist\\commonjs\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 59,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\balanced-match\\dist\\esm\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\balanced-match\\dist\\esm\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 54,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\bignumber.js\\bignumber.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1830,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\bignumber.js\\bignumber.js",
+      "vulnerabilities": [],
+      "linesScanned": 2903,
+      "duration": 2
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\bignumber.js\\bignumber.min.js",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\bignumber.js\\bignumber.mjs",
+      "vulnerabilities": [],
+      "linesScanned": 2889,
+      "duration": 2
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\binary-extensions\\binary-extensions.json.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\binary-extensions\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\binary-extensions\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\body-parser\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 157,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\body-parser\\lib\\read.js",
+      "vulnerabilities": [],
+      "linesScanned": 206,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\body-parser\\lib\\types\\json.js",
+      "vulnerabilities": [],
+      "linesScanned": 244,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\body-parser\\lib\\types\\raw.js",
+      "vulnerabilities": [],
+      "linesScanned": 102,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\body-parser\\lib\\types\\text.js",
+      "vulnerabilities": [],
+      "linesScanned": 122,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\body-parser\\lib\\types\\urlencoded.js",
+      "vulnerabilities": [],
+      "linesScanned": 300,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\brace-expansion\\dist\\commonjs\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\brace-expansion\\dist\\commonjs\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 201,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\brace-expansion\\dist\\esm\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\brace-expansion\\dist\\esm\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 197,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\braces\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 171,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\braces\\lib\\compile.js",
+      "vulnerabilities": [],
+      "linesScanned": 61,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\braces\\lib\\constants.js",
+      "vulnerabilities": [],
+      "linesScanned": 58,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\braces\\lib\\expand.js",
+      "vulnerabilities": [],
+      "linesScanned": 114,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\braces\\lib\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 332,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\braces\\lib\\stringify.js",
+      "vulnerabilities": [],
+      "linesScanned": 33,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\braces\\lib\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 123,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\buffer-equal-constant-time\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 42,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\buffer-equal-constant-time\\test.js",
+      "vulnerabilities": [],
+      "linesScanned": 43,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\buffer-from\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 73,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\.eslintrc.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\bench\\bench-multipart-fields-100mb-big.js",
+      "vulnerabilities": [],
+      "linesScanned": 150,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\bench\\bench-multipart-fields-100mb-small.js",
+      "vulnerabilities": [],
+      "linesScanned": 144,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\bench\\bench-multipart-files-100mb-big.js",
+      "vulnerabilities": [],
+      "linesScanned": 155,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\bench\\bench-multipart-files-100mb-small.js",
+      "vulnerabilities": [],
+      "linesScanned": 149,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\bench\\bench-urlencoded-fields-100pairs-small.js",
+      "vulnerabilities": [],
+      "linesScanned": 102,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\bench\\bench-urlencoded-fields-900pairs-small-alt.js",
+      "vulnerabilities": [],
+      "linesScanned": 85,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\lib\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 58,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\lib\\types\\multipart.js",
+      "vulnerabilities": [],
+      "linesScanned": 654,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\lib\\types\\urlencoded.js",
+      "vulnerabilities": [],
+      "linesScanned": 351,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\lib\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 597,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\test\\common.js",
+      "vulnerabilities": [],
+      "linesScanned": 110,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\test\\test-types-multipart-charsets.js",
+      "vulnerabilities": [],
+      "linesScanned": 95,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\test\\test-types-multipart-stream-pause.js",
+      "vulnerabilities": [],
+      "linesScanned": 103,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\test\\test-types-multipart.js",
+      "vulnerabilities": [],
+      "linesScanned": 1054,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\test\\test-types-urlencoded.js",
+      "vulnerabilities": [],
+      "linesScanned": 489,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\busboy\\test\\test.js",
+      "vulnerabilities": [],
+      "linesScanned": 21,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\bytes\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 171,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\actualApply.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\actualApply.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\applyBind.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 19,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\applyBind.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\functionApply.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\functionApply.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\functionCall.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\functionCall.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 65,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\reflectApply.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\reflectApply.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bind-apply-helpers\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 64,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bound\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 95,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bound\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\call-bound\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 62,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\charenc\\charenc.js",
+      "vulnerabilities": [],
+      "linesScanned": 34,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\charenc\\README.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\chokidar\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 974,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\chokidar\\lib\\constants.js",
+      "vulnerabilities": [],
+      "linesScanned": 67,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\chokidar\\lib\\fsevents-handler.js",
+      "vulnerabilities": [],
+      "linesScanned": 527,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\chokidar\\lib\\nodefs-handler.js",
+      "vulnerabilities": [],
+      "linesScanned": 655,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\chokidar\\types\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 193,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\concat-stream\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 145,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\content-disposition\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 459,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\content-type\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 226,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 336,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js-42",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js",
+          "line": 42,
+          "column": 10,
+          "snippet": "return sha1(mac) == sha1(val) ? str : false;",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        },
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js-42",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js",
+          "line": 42,
+          "column": 23,
+          "snippet": "return sha1(mac) == sha1(val) ? str : false;",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        },
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js-49",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js",
+          "line": 49,
+          "column": 10,
+          "snippet": "function sha1(str){",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        },
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js-50",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cookie-signature\\index.js",
+          "line": 50,
+          "column": 17,
+          "snippet": "return crypto.createHash('sha1').update(str).digest('hex');",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        }
+      ],
+      "linesScanned": 52,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\core-util-is\\lib\\util.js",
+      "vulnerabilities": [],
+      "linesScanned": 108,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cors\\lib\\index.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC040-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cors\\lib\\index.js-9",
+          "rule": "SEC040",
+          "category": "Security Misconfiguration",
+          "severity": "HIGH",
+          "message": "CORS wildcard (*) origin allows any domain to make cross-origin requests.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\cors\\lib\\index.js",
+          "line": 9,
+          "column": 5,
+          "snippet": "origin: '*',",
+          "owaspCategory": "A05:2021 – Security Misconfiguration",
+          "cwe": "CWE-942",
+          "remediation": "Specify an explicit allowlist of trusted origins."
+        }
+      ],
+      "linesScanned": 239,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\crypt\\crypt.js",
+      "vulnerabilities": [],
+      "linesScanned": 97,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\debug\\karma.conf.js",
+      "vulnerabilities": [],
+      "linesScanned": 71,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\debug\\node.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\debug\\src\\browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 186,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\debug\\src\\debug.js",
+      "vulnerabilities": [],
+      "linesScanned": 203,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\debug\\src\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\debug\\src\\inspector-log.js",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\debug\\src\\node.js",
+      "vulnerabilities": [],
+      "linesScanned": 249,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\depd\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 539,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\depd\\lib\\browser\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 78,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\destroy\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 210,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\dunder-proto\\get.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\dunder-proto\\get.js",
+      "vulnerabilities": [],
+      "linesScanned": 31,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\dunder-proto\\set.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\dunder-proto\\set.js",
+      "vulnerabilities": [],
+      "linesScanned": 36,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\dunder-proto\\test\\get.js",
+      "vulnerabilities": [],
+      "linesScanned": 35,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\dunder-proto\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\dunder-proto\\test\\set.js",
+      "vulnerabilities": [],
+      "linesScanned": 51,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ecdsa-sig-formatter\\src\\ecdsa-sig-formatter.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ecdsa-sig-formatter\\src\\ecdsa-sig-formatter.js",
+      "vulnerabilities": [],
+      "linesScanned": 188,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ecdsa-sig-formatter\\src\\param-bytes-for-alg.js",
+      "vulnerabilities": [],
+      "linesScanned": 24,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ee-first\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 96,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\encodeurl\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 61,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-define-property\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-define-property\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-define-property\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 57,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\eval.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\eval.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\range.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\range.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\ref.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\ref.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\syntax.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\syntax.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\type.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\type.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\uri.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-errors\\uri.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\isObject.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\isObject.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\RequireObjectCoercible.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\RequireObjectCoercible.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 39,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\ToObject.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\es-object-atoms\\ToObject.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\escape-html\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 79,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\etag\\index.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\etag\\index.js-47",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\etag\\index.js",
+          "line": 47,
+          "column": 6,
+          "snippet": ".createHash('sha1')",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        }
+      ],
+      "linesScanned": 132,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\application.js",
+      "vulnerabilities": [],
+      "linesScanned": 662,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\express.js",
+      "vulnerabilities": [],
+      "linesScanned": 117,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\middleware\\init.js",
+      "vulnerabilities": [],
+      "linesScanned": 44,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\middleware\\query.js",
+      "vulnerabilities": [],
+      "linesScanned": 48,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\request.js",
+      "vulnerabilities": [],
+      "linesScanned": 526,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\response.js",
+      "vulnerabilities": [],
+      "linesScanned": 1180,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\router\\index.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC020-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\router\\index.js-313",
+          "rule": "SEC020",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible SQL injection: user input concatenated into SQL query.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\router\\index.js",
+          "line": 313,
+          "column": 21,
+          "snippet": "req.url = '/' + req.url;",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-89",
+          "remediation": "Use parameterized queries or an ORM with proper escaping."
+        }
+      ],
+      "linesScanned": 674,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\router\\layer.js",
+      "vulnerabilities": [],
+      "linesScanned": 182,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\router\\route.js",
+      "vulnerabilities": [],
+      "linesScanned": 231,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 304,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\lib\\view.js",
+      "vulnerabilities": [],
+      "linesScanned": 183,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\dist\\qs.js",
+      "vulnerabilities": [],
+      "linesScanned": 142,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\eslint.config.mjs",
+      "vulnerabilities": [],
+      "linesScanned": 57,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\lib\\formats.js",
+      "vulnerabilities": [],
+      "linesScanned": 24,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\lib\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\lib\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 372,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\lib\\stringify.js",
+      "vulnerabilities": [],
+      "linesScanned": 357,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\lib\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 341,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\test\\empty-keys-cases.js",
+      "vulnerabilities": [],
+      "linesScanned": 268,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\test\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 1513,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\test\\stringify.js",
+      "vulnerabilities": [],
+      "linesScanned": 1311,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\express\\node_modules\\qs\\test\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 398,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\fill-range\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 249,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\finalhandler\\index.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC020-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\finalhandler\\index.js-115",
+          "rule": "SEC020",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible SQL injection: user input concatenated into SQL query.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\finalhandler\\index.js",
+          "line": 115,
+          "column": 21,
+          "snippet": "msg = 'Cannot ' + req.method + ' ' + encodeUrl(getResourceName(req))",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-89",
+          "remediation": "Use parameterized queries or an ORM with proper escaping."
+        }
+      ],
+      "linesScanned": 342,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\forwarded\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 91,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\fresh\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 138,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\function-bind\\implementation.js",
+      "vulnerabilities": [],
+      "linesScanned": 85,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\function-bind\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\function-bind\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 253,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-intrinsic\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 379,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-intrinsic\\test\\GetIntrinsic.js",
+      "vulnerabilities": [],
+      "linesScanned": 275,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-proto\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-proto\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 28,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-proto\\Object.getPrototypeOf.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-proto\\Object.getPrototypeOf.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-proto\\Reflect.getPrototypeOf.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-proto\\Reflect.getPrototypeOf.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\get-proto\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 69,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\glob-parent\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 43,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\gopd\\gOPD.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\gopd\\gOPD.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\gopd\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\gopd\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\gopd\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 37,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-flag\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\shams.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\shams.js",
+      "vulnerabilities": [],
+      "linesScanned": 46,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 23,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\test\\shams\\core-js.js",
+      "vulnerabilities": [],
+      "linesScanned": 30,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\test\\shams\\get-own-property-symbols.js",
+      "vulnerabilities": [],
+      "linesScanned": 30,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\has-symbols\\test\\tests.js",
+      "vulnerabilities": [],
+      "linesScanned": 59,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\hasown\\eslint.config.mjs",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\hasown\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\hasown\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\http-errors\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 291,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\dbcs-codec.js",
+      "vulnerabilities": [],
+      "linesScanned": 556,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\dbcs-data.js",
+      "vulnerabilities": [],
+      "linesScanned": 177,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 23,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\internal.js",
+      "vulnerabilities": [],
+      "linesScanned": 189,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\sbcs-codec.js",
+      "vulnerabilities": [],
+      "linesScanned": 73,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\sbcs-data-generated.js",
+      "vulnerabilities": [],
+      "linesScanned": 451,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\sbcs-data.js",
+      "vulnerabilities": [],
+      "linesScanned": 175,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\utf16.js",
+      "vulnerabilities": [],
+      "linesScanned": 178,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\encodings\\utf7.js",
+      "vulnerabilities": [],
+      "linesScanned": 291,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\lib\\bom-handling.js",
+      "vulnerabilities": [],
+      "linesScanned": 53,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\lib\\extend-node.js",
+      "vulnerabilities": [],
+      "linesScanned": 218,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\lib\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 25,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\lib\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 154,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\iconv-lite\\lib\\streams.js",
+      "vulnerabilities": [],
+      "linesScanned": 122,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ignore-by-default\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\inherits\\inherits.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\inherits\\inherits_browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 28,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ipaddr.js\\ipaddr.min.js",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ipaddr.js\\lib\\ipaddr.js",
+      "vulnerabilities": [],
+      "linesScanned": 674,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ipaddr.js\\lib\\ipaddr.js.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 69,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\is-binary-path\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\is-binary-path\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\is-buffer\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\is-buffer\\test\\basic.js",
+      "vulnerabilities": [],
+      "linesScanned": 25,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\is-extglob\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 21,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\is-glob\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 151,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\is-number\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 19,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\isarray\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\isarray\\test.js",
+      "vulnerabilities": [],
+      "linesScanned": 21,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\decode.js",
+      "vulnerabilities": [],
+      "linesScanned": 31,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\lib\\JsonWebTokenError.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\lib\\NotBeforeError.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\lib\\psSupported.js",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\lib\\timespan.js",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\lib\\TokenExpiredError.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\node_modules\\ms\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 163,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\sign.js",
+      "vulnerabilities": [],
+      "linesScanned": 207,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jsonwebtoken\\verify.js",
+      "vulnerabilities": [],
+      "linesScanned": 226,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jwa\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 267,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jws\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 23,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jws\\lib\\data-stream.js",
+      "vulnerabilities": [],
+      "linesScanned": 56,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jws\\lib\\sign-stream.js",
+      "vulnerabilities": [],
+      "linesScanned": 84,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jws\\lib\\tostring.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\jws\\lib\\verify-stream.js",
+      "vulnerabilities": [],
+      "linesScanned": 126,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\lodash.includes\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 746,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\lodash.isboolean\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 71,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\lodash.isinteger\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 266,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\lodash.isnumber\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 80,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\lodash.isplainobject\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 140,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\lodash.isstring\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 96,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\lodash.once\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 295,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\abs.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\abs.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\constants\\maxArrayLength.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\constants\\maxArrayLength.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\constants\\maxSafeInteger.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\constants\\maxSafeInteger.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\constants\\maxValue.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\constants\\maxValue.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\floor.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\floor.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isFinite.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isFinite.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isInteger.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isInteger.js",
+      "vulnerabilities": [],
+      "linesScanned": 17,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isNaN.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isNaN.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isNegativeZero.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\isNegativeZero.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\max.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\max.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\min.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\min.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\mod.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\mod.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\pow.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\pow.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\round.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\round.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\sign.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\sign.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\math-intrinsics\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 193,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\dist\\md5.min.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\md5.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\md5.js-154",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\md5.js",
+          "line": 154,
+          "column": 42,
+          "snippet": "var digestbytes = crypt.wordsToBytes(md5(message, options));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        }
+      ],
+      "linesScanned": 161,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-8",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 8,
+          "column": 7,
+          "snippet": "md5(undefined);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-13",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 13,
+          "column": 54,
+          "snippet": "assert.equal('5e543256c480ac577d30f76f9120eb74', md5('undefined'));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-18",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 18,
+          "column": 7,
+          "snippet": "md5(null);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-23",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 23,
+          "column": 54,
+          "snippet": "assert.equal('78e731027d8fd50ed642340b7c9a63b3', md5('message'));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-31",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 31,
+          "column": 23,
+          "snippet": "assert.notEqual(md5(msg1), md5(msg2));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-31",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 31,
+          "column": 34,
+          "snippet": "assert.notEqual(md5(msg1), md5(msg2));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-33",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 33,
+          "column": 20,
+          "snippet": "assert.equal(md5(msg1), md5(msg1));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-33",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 33,
+          "column": 31,
+          "snippet": "assert.equal(md5(msg1), md5(msg1));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-40",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 40,
+          "column": 18,
+          "snippet": "assert.equal(md5(buffer), md5('message áßäöü'));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-40",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 40,
+          "column": 31,
+          "snippet": "assert.equal(md5(buffer), md5('message áßäöü'));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-44",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 44,
+          "column": 17,
+          "snippet": "var hash1 = md5('abc', { asString: true });",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-45",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 45,
+          "column": 17,
+          "snippet": "var hash2 = md5(hash1 + 'a', { asString: true, encoding : 'binary' });",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-46",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 46,
+          "column": 17,
+          "snippet": "var hash3 = md5(hash1 + 'a', { encoding : 'binary' });",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-72",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 72,
+          "column": 19,
+          "snippet": "var u8aHash = md5(u8arr);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js-73",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\test.js",
+          "line": 73,
+          "column": 27,
+          "snippet": "assert.equal(u8aHash, md5(message));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        }
+      ],
+      "linesScanned": 76,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\md5\\webpack.config.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\media-typer\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 271,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\merge-descriptors\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 61,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\methods\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 70,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mime\\cli.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mime\\mime.js",
+      "vulnerabilities": [],
+      "linesScanned": 109,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mime\\src\\build.js",
+      "vulnerabilities": [],
+      "linesScanned": 54,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mime\\src\\test.js",
+      "vulnerabilities": [],
+      "linesScanned": 61,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mime-db\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mime-types\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 189,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\assert-valid-pattern.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\assert-valid-pattern.js",
+      "vulnerabilities": [],
+      "linesScanned": 14,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\ast.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\ast.js",
+      "vulnerabilities": [],
+      "linesScanned": 845,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\brace-expressions.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\brace-expressions.js",
+      "vulnerabilities": [],
+      "linesScanned": 150,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\escape.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\escape.js",
+      "vulnerabilities": [],
+      "linesScanned": 30,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 174,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 1127,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\unescape.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\commonjs\\unescape.js",
+      "vulnerabilities": [],
+      "linesScanned": 38,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\assert-valid-pattern.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\assert-valid-pattern.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\ast.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\ast.js",
+      "vulnerabilities": [],
+      "linesScanned": 841,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\brace-expressions.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\brace-expressions.js",
+      "vulnerabilities": [],
+      "linesScanned": 146,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\escape.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\escape.js",
+      "vulnerabilities": [],
+      "linesScanned": 26,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 174,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 1114,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\unescape.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimatch\\dist\\esm\\unescape.js",
+      "vulnerabilities": [],
+      "linesScanned": 34,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\example\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 264,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\all_bool.js",
+      "vulnerabilities": [],
+      "linesScanned": 35,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\bool.js",
+      "vulnerabilities": [],
+      "linesScanned": 178,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\dash.js",
+      "vulnerabilities": [],
+      "linesScanned": 44,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\default_bool.js",
+      "vulnerabilities": [],
+      "linesScanned": 38,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\dotted.js",
+      "vulnerabilities": [],
+      "linesScanned": 25,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\kv_short.js",
+      "vulnerabilities": [],
+      "linesScanned": 33,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\long.js",
+      "vulnerabilities": [],
+      "linesScanned": 34,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\num.js",
+      "vulnerabilities": [],
+      "linesScanned": 39,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 210,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\parse_modified.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\proto.js",
+      "vulnerabilities": [],
+      "linesScanned": 65,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\short.js",
+      "vulnerabilities": [],
+      "linesScanned": 70,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\stop_early.js",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\unknown.js",
+      "vulnerabilities": [],
+      "linesScanned": 105,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\minimist\\test\\whitespace.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mkdirp\\bin\\cmd.js",
+      "vulnerabilities": [],
+      "linesScanned": 34,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mkdirp\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 103,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\ms\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 153,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 105,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\lib\\counter.js",
+      "vulnerabilities": [],
+      "linesScanned": 29,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\lib\\file-appender.js",
+      "vulnerabilities": [],
+      "linesScanned": 68,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\lib\\make-middleware.js",
+      "vulnerabilities": [],
+      "linesScanned": 176,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\lib\\multer-error.js",
+      "vulnerabilities": [],
+      "linesScanned": 25,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\lib\\remove-uploaded-files.js",
+      "vulnerabilities": [],
+      "linesScanned": 29,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\storage\\disk.js",
+      "vulnerabilities": [],
+      "linesScanned": 67,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\multer\\storage\\memory.js",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 162,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\Connection.js",
+      "vulnerabilities": [],
+      "linesScanned": 530,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\ConnectionConfig.js",
+      "vulnerabilities": [],
+      "linesScanned": 210,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\Pool.js",
+      "vulnerabilities": [],
+      "linesScanned": 295,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\PoolCluster.js",
+      "vulnerabilities": [],
+      "linesScanned": 289,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\PoolConfig.js",
+      "vulnerabilities": [],
+      "linesScanned": 33,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\PoolConnection.js",
+      "vulnerabilities": [],
+      "linesScanned": 66,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\PoolNamespace.js",
+      "vulnerabilities": [],
+      "linesScanned": 137,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\PoolSelector.js",
+      "vulnerabilities": [],
+      "linesScanned": 32,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js-17",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js",
+          "line": 17,
+          "column": 10,
+          "snippet": "function sha1(msg) {",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        },
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js-18",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js",
+          "line": 18,
+          "column": 21,
+          "snippet": "var hash = Crypto.createHash('sha1');",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        },
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js-41",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js",
+          "line": 41,
+          "column": 16,
+          "snippet": "var stage1 = sha1((Buffer.from(password, 'utf8')).toString('binary'));",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        },
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js-42",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js",
+          "line": 42,
+          "column": 16,
+          "snippet": "var stage2 = sha1(stage1);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        },
+        {
+          "id": "SEC011-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js-43",
+          "rule": "SEC011",
+          "category": "Cryptography",
+          "severity": "MEDIUM",
+          "message": "SHA-1 is deprecated for security use.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Auth.js",
+          "line": 43,
+          "column": 16,
+          "snippet": "var stage3 = sha1(scramble.toString('binary') + stage2);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Upgrade to SHA-256 or stronger."
+        }
+      ],
+      "linesScanned": 169,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\BufferList.js",
+      "vulnerabilities": [],
+      "linesScanned": 26,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\constants\\charsets.js",
+      "vulnerabilities": [],
+      "linesScanned": 263,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\constants\\client.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\constants\\errors.js",
+      "vulnerabilities": [],
+      "linesScanned": 2477,
+      "duration": 3
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\constants\\field_flags.js",
+      "vulnerabilities": [],
+      "linesScanned": 19,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\constants\\server_status.js",
+      "vulnerabilities": [],
+      "linesScanned": 40,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\constants\\ssl_profiles.js",
+      "vulnerabilities": [],
+      "linesScanned": 1481,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\constants\\types.js",
+      "vulnerabilities": [],
+      "linesScanned": 73,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\PacketHeader.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\AuthSwitchRequestPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 21,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\AuthSwitchResponsePacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ClientAuthenticationPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 55,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ComChangeUserPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ComPingPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ComQueryPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ComQuitPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ComStatisticsPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\EmptyPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\EofPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 26,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ErrorPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 36,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\Field.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\FieldPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 94,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\HandshakeInitializationPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 104,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 24,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\LocalDataFilePacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\LocalInfileRequestPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\OkPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 45,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\OldPasswordPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\ResultSetHeaderPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\RowDataPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 131,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\SSLRequestPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 28,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\StatisticsPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 21,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\packets\\UseOldPasswordPacket.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\PacketWriter.js",
+      "vulnerabilities": [],
+      "linesScanned": 212,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Parser.js",
+      "vulnerabilities": [],
+      "linesScanned": 492,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Protocol.js",
+      "vulnerabilities": [],
+      "linesScanned": 464,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\ResultSet.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\ChangeUser.js",
+      "vulnerabilities": [],
+      "linesScanned": 68,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\Handshake.js",
+      "vulnerabilities": [],
+      "linesScanned": 127,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\Ping.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js",
+      "vulnerabilities": [],
+      "linesScanned": 229,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\Quit.js",
+      "vulnerabilities": [],
+      "linesScanned": 41,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js",
+      "vulnerabilities": [],
+      "linesScanned": 126,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\sequences\\Statistics.js",
+      "vulnerabilities": [],
+      "linesScanned": 31,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\SqlString.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\lib\\protocol\\Timer.js",
+      "vulnerabilities": [],
+      "linesScanned": 34,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\duplex-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\duplex.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+      "vulnerabilities": [],
+      "linesScanned": 79,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+      "vulnerabilities": [],
+      "linesScanned": 74,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+      "vulnerabilities": [],
+      "linesScanned": 131,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+      "vulnerabilities": [],
+      "linesScanned": 47,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+      "vulnerabilities": [],
+      "linesScanned": 1019,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+      "vulnerabilities": [],
+      "linesScanned": 214,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+      "vulnerabilities": [],
+      "linesScanned": 687,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\passthrough.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\readable-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\readable.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\transform.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\writable-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\readable-stream\\writable.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\safe-buffer\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 187,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\mysql\\node_modules\\safe-buffer\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 63,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\negotiator\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 83,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\negotiator\\lib\\charset.js",
+      "vulnerabilities": [],
+      "linesScanned": 170,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\negotiator\\lib\\encoding.js",
+      "vulnerabilities": [],
+      "linesScanned": 185,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\negotiator\\lib\\language.js",
+      "vulnerabilities": [],
+      "linesScanned": 180,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\negotiator\\lib\\mediaType.js",
+      "vulnerabilities": [],
+      "linesScanned": 295,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\bin\\nodemon.js",
+      "vulnerabilities": [],
+      "linesScanned": 17,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 125,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\cli\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 49,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\cli\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 231,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\config\\command.js",
+      "vulnerabilities": [],
+      "linesScanned": 44,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\config\\defaults.js",
+      "vulnerabilities": [],
+      "linesScanned": 35,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\config\\exec.js",
+      "vulnerabilities": [],
+      "linesScanned": 241,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\config\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 94,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\config\\load.js",
+      "vulnerabilities": [],
+      "linesScanned": 226,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\help\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 28,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 1,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\match.js",
+      "vulnerabilities": [],
+      "linesScanned": 289,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC021-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js-378",
+          "rule": "SEC021",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible OS command injection: user input passed to shell execution.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js",
+          "line": 378,
+          "column": 28,
+          "snippet": "const resultBuffer = execSync(",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-78",
+          "remediation": "Never pass user input to shell commands. Use safe APIs or allowlist validation."
+        },
+        {
+          "id": "SEC021-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js-402",
+          "rule": "SEC021",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible OS command injection: user input passed to shell execution.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js",
+          "line": 402,
+          "column": 7,
+          "snippet": "execSync(",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-78",
+          "remediation": "Never pass user input to shell commands. Use safe APIs or allowlist validation."
+        },
+        {
+          "id": "SEC021-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js-430",
+          "rule": "SEC021",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible OS command injection: user input passed to shell execution.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js",
+          "line": 430,
+          "column": 36,
+          "snippet": "pids.sort().forEach((pid) => exec(`kill -${sig} ${pid}`, noop));",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-78",
+          "remediation": "Never pass user input to shell commands. Use safe APIs or allowlist validation."
+        },
+        {
+          "id": "SEC021-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js-434",
+          "rule": "SEC021",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible OS command injection: user input passed to shell execution.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\run.js",
+          "line": 434,
+          "column": 9,
+          "snippet": "exec(`kill -${sig} ${child.pid}`, callback);",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-78",
+          "remediation": "Never pass user input to shell commands. Use safe APIs or allowlist validation."
+        }
+      ],
+      "linesScanned": 563,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\signals.js",
+      "vulnerabilities": [],
+      "linesScanned": 35,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\monitor\\watch.js",
+      "vulnerabilities": [],
+      "linesScanned": 245,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\nodemon.js",
+      "vulnerabilities": [],
+      "linesScanned": 318,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\rules\\add.js",
+      "vulnerabilities": [],
+      "linesScanned": 90,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\rules\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 53,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\rules\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 44,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\spawn.js",
+      "vulnerabilities": [],
+      "linesScanned": 75,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\utils\\bus.js",
+      "vulnerabilities": [],
+      "linesScanned": 45,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\utils\\clone.js",
+      "vulnerabilities": [],
+      "linesScanned": 40,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\utils\\colour.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\utils\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 104,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\utils\\log.js",
+      "vulnerabilities": [],
+      "linesScanned": 83,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\utils\\merge.js",
+      "vulnerabilities": [],
+      "linesScanned": 47,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\lib\\version.js",
+      "vulnerabilities": [],
+      "linesScanned": 101,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\debug\\src\\browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 273,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\debug\\src\\common.js",
+      "vulnerabilities": [],
+      "linesScanned": 293,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\debug\\src\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\debug\\src\\node.js",
+      "vulnerabilities": [],
+      "linesScanned": 264,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\ms\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 163,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\bin\\semver.js",
+      "vulnerabilities": [],
+      "linesScanned": 192,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\classes\\comparator.js",
+      "vulnerabilities": [],
+      "linesScanned": 144,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\classes\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\classes\\range.js",
+      "vulnerabilities": [],
+      "linesScanned": 558,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\classes\\semver.js",
+      "vulnerabilities": [],
+      "linesScanned": 334,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\clean.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\cmp.js",
+      "vulnerabilities": [],
+      "linesScanned": 55,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\coerce.js",
+      "vulnerabilities": [],
+      "linesScanned": 63,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\compare-build.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\compare-loose.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\compare.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\diff.js",
+      "vulnerabilities": [],
+      "linesScanned": 61,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\eq.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\gt.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\gte.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\inc.js",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\lt.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\lte.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\major.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\minor.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\neq.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 19,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\patch.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\prerelease.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\rcompare.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\rsort.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\satisfies.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\sort.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\functions\\valid.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 92,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\internal\\constants.js",
+      "vulnerabilities": [],
+      "linesScanned": 38,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\internal\\debug.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\internal\\identifiers.js",
+      "vulnerabilities": [],
+      "linesScanned": 30,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\internal\\lrucache.js",
+      "vulnerabilities": [],
+      "linesScanned": 43,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\internal\\parse-options.js",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\internal\\re.js",
+      "vulnerabilities": [],
+      "linesScanned": 224,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\preload.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\gtr.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\intersects.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\ltr.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\max-satisfying.js",
+      "vulnerabilities": [],
+      "linesScanned": 28,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\min-satisfying.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\min-version.js",
+      "vulnerabilities": [],
+      "linesScanned": 64,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\outside.js",
+      "vulnerabilities": [],
+      "linesScanned": 83,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\simplify.js",
+      "vulnerabilities": [],
+      "linesScanned": 50,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\subset.js",
+      "vulnerabilities": [],
+      "linesScanned": 250,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\to-comparators.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\nodemon\\node_modules\\semver\\ranges\\valid.js",
+      "vulnerabilities": [],
+      "linesScanned": 14,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\normalize-path\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 36,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-assign\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 91,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\example\\all.js",
+      "vulnerabilities": [],
+      "linesScanned": 24,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\example\\circular.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\example\\fn.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\example\\inspect.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC024-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\example\\inspect.js-8",
+          "rule": "SEC024",
+          "category": "Injection",
+          "severity": "HIGH",
+          "message": "Possible XSS: unescaped content assigned to innerHTML or dangerouslySetInnerHTML.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\example\\inspect.js",
+          "line": 8,
+          "column": 2,
+          "snippet": "d.innerHTML = '<b>wooo</b><i>iiiii</i>';",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-79",
+          "remediation": "Use textContent for plain text; use a DOM sanitizer (DOMPurify) if HTML is required."
+        }
+      ],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 545,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\bigint.js",
+      "vulnerabilities": [],
+      "linesScanned": 59,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\browser\\dom.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC024-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\browser\\dom.js-9",
+          "rule": "SEC024",
+          "category": "Injection",
+          "severity": "HIGH",
+          "message": "Possible XSS: unescaped content assigned to innerHTML or dangerouslySetInnerHTML.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\browser\\dom.js",
+          "line": 9,
+          "column": 6,
+          "snippet": "d.innerHTML = '<b>wooo</b><i>iiiii</i>';",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-79",
+          "remediation": "Use textContent for plain text; use a DOM sanitizer (DOMPurify) if HTML is required."
+        }
+      ],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\circular.js",
+      "vulnerabilities": [],
+      "linesScanned": 17,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\deep.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\element.js",
+      "vulnerabilities": [],
+      "linesScanned": 54,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\err.js",
+      "vulnerabilities": [],
+      "linesScanned": 49,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\fakes.js",
+      "vulnerabilities": [],
+      "linesScanned": 30,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\fn.js",
+      "vulnerabilities": [],
+      "linesScanned": 77,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\global.js",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\has.js",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\holes.js",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\indent-option.js",
+      "vulnerabilities": [],
+      "linesScanned": 272,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\inspect.js",
+      "vulnerabilities": [],
+      "linesScanned": 140,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\lowbyte.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\number.js",
+      "vulnerabilities": [],
+      "linesScanned": 59,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\quoteStyle.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\toStringTag.js",
+      "vulnerabilities": [],
+      "linesScanned": 41,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\undef.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test\\values.js",
+      "vulnerabilities": [],
+      "linesScanned": 262,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\test-core-js.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\object-inspect\\util.inspect.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\on-finished\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 235,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\parseurl\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 159,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\path-to-regexp\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 159,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\picomatch\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 4,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\picomatch\\lib\\constants.js",
+      "vulnerabilities": [],
+      "linesScanned": 185,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\picomatch\\lib\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 1393,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\picomatch\\lib\\picomatch.js",
+      "vulnerabilities": [],
+      "linesScanned": 343,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\picomatch\\lib\\scan.js",
+      "vulnerabilities": [],
+      "linesScanned": 392,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\picomatch\\lib\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 65,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\process-nextick-args\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 46,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\proxy-addr\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 328,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\pstree.remy\\lib\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 38,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\pstree.remy\\lib\\tree.js",
+      "vulnerabilities": [],
+      "linesScanned": 38,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\pstree.remy\\lib\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 54,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\pstree.remy\\tests\\fixtures\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 14,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\pstree.remy\\tests\\index.test.js",
+      "vulnerabilities": [],
+      "linesScanned": 52,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\dist\\qs.js",
+      "vulnerabilities": [],
+      "linesScanned": 142,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\eslint.config.mjs",
+      "vulnerabilities": [],
+      "linesScanned": 57,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\lib\\formats.js",
+      "vulnerabilities": [],
+      "linesScanned": 24,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\lib\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\lib\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 374,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\lib\\stringify.js",
+      "vulnerabilities": [],
+      "linesScanned": 357,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\lib\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 343,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\test\\empty-keys-cases.js",
+      "vulnerabilities": [],
+      "linesScanned": 268,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\test\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 1655,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\test\\stringify.js",
+      "vulnerabilities": [],
+      "linesScanned": 1320,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\qs\\test\\utils.js",
+      "vulnerabilities": [],
+      "linesScanned": 433,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\range-parser\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 163,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\raw-body\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 88,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\raw-body\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 337,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\duplex-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\duplex.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js",
+      "vulnerabilities": [],
+      "linesScanned": 78,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js",
+      "vulnerabilities": [],
+      "linesScanned": 84,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\_stream_duplex.js",
+      "vulnerabilities": [],
+      "linesScanned": 131,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\_stream_passthrough.js",
+      "vulnerabilities": [],
+      "linesScanned": 47,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\_stream_readable.js",
+      "vulnerabilities": [],
+      "linesScanned": 1019,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\_stream_transform.js",
+      "vulnerabilities": [],
+      "linesScanned": 214,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\lib\\_stream_writable.js",
+      "vulnerabilities": [],
+      "linesScanned": 685,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\node_modules\\safe-buffer\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 187,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\node_modules\\safe-buffer\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 63,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\passthrough.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\readable-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\readable.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\transform.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\writable-browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readable-stream\\writable.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readdirp\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 44,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\readdirp\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 288,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\safe-buffer\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 187,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\safe-buffer\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 66,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\safer-buffer\\dangerous.js",
+      "vulnerabilities": [],
+      "linesScanned": 59,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\safer-buffer\\safer.js",
+      "vulnerabilities": [],
+      "linesScanned": 78,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\safer-buffer\\tests.js",
+      "vulnerabilities": [],
+      "linesScanned": 407,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\semver\\semver.js",
+      "vulnerabilities": [],
+      "linesScanned": 1526,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\send\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 1143,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\send\\node_modules\\ms\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 163,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\serve-static\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 210,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\setprototypeof\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 3,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\setprototypeof\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\setprototypeof\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 25,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 44,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 105,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-list\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 14,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-list\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 112,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-list\\list.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-list\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 155,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-map\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-map\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 69,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-map\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 115,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-weakmap\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 16,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-weakmap\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 85,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\side-channel-weakmap\\test\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 115,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\build\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 14,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\build\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 211,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\bin\\semver.js",
+      "vulnerabilities": [],
+      "linesScanned": 192,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\classes\\comparator.js",
+      "vulnerabilities": [],
+      "linesScanned": 144,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\classes\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\classes\\range.js",
+      "vulnerabilities": [],
+      "linesScanned": 558,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\classes\\semver.js",
+      "vulnerabilities": [],
+      "linesScanned": 334,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\clean.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\cmp.js",
+      "vulnerabilities": [],
+      "linesScanned": 55,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\coerce.js",
+      "vulnerabilities": [],
+      "linesScanned": 63,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\compare-build.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\compare-loose.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\compare.js",
+      "vulnerabilities": [],
+      "linesScanned": 8,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\diff.js",
+      "vulnerabilities": [],
+      "linesScanned": 61,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\eq.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\gt.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\gte.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\inc.js",
+      "vulnerabilities": [],
+      "linesScanned": 22,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\lt.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\lte.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\major.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\minor.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\neq.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\parse.js",
+      "vulnerabilities": [],
+      "linesScanned": 19,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\patch.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\prerelease.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\rcompare.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\rsort.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\satisfies.js",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\sort.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\functions\\valid.js",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 92,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\internal\\constants.js",
+      "vulnerabilities": [],
+      "linesScanned": 38,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\internal\\debug.js",
+      "vulnerabilities": [],
+      "linesScanned": 12,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\internal\\identifiers.js",
+      "vulnerabilities": [],
+      "linesScanned": 30,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\internal\\lrucache.js",
+      "vulnerabilities": [],
+      "linesScanned": 43,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\internal\\parse-options.js",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\internal\\re.js",
+      "vulnerabilities": [],
+      "linesScanned": 224,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\preload.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\gtr.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\intersects.js",
+      "vulnerabilities": [],
+      "linesScanned": 10,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\ltr.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\max-satisfying.js",
+      "vulnerabilities": [],
+      "linesScanned": 28,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\min-satisfying.js",
+      "vulnerabilities": [],
+      "linesScanned": 27,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\min-version.js",
+      "vulnerabilities": [],
+      "linesScanned": 64,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\outside.js",
+      "vulnerabilities": [],
+      "linesScanned": 83,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\simplify.js",
+      "vulnerabilities": [],
+      "linesScanned": 50,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\subset.js",
+      "vulnerabilities": [],
+      "linesScanned": 250,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\to-comparators.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\node_modules\\semver\\ranges\\valid.js",
+      "vulnerabilities": [],
+      "linesScanned": 14,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\borderedText.ts",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\cache.spec.ts",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\cache.ts",
+      "vulnerabilities": [],
+      "linesScanned": 45,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\getDistVersion.spec.ts",
+      "vulnerabilities": [],
+      "linesScanned": 36,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\getDistVersion.ts",
+      "vulnerabilities": [],
+      "linesScanned": 30,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\hasNewVersion.spec.ts",
+      "vulnerabilities": [],
+      "linesScanned": 83,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\hasNewVersion.ts",
+      "vulnerabilities": [],
+      "linesScanned": 41,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\index.spec.ts",
+      "vulnerabilities": [],
+      "linesScanned": 28,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\index.ts",
+      "vulnerabilities": [],
+      "linesScanned": 35,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\isNpmOrYarn.ts",
+      "vulnerabilities": [],
+      "linesScanned": 13,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\simple-update-notifier\\src\\types.ts",
+      "vulnerabilities": [],
+      "linesScanned": 9,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\sqlstring\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 2,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\sqlstring\\lib\\SqlString.js",
+      "vulnerabilities": [],
+      "linesScanned": 238,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\statuses\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 147,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\streamsearch\\.eslintrc.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\streamsearch\\lib\\sbmh.js",
+      "vulnerabilities": [],
+      "linesScanned": 268,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\streamsearch\\test\\test.js",
+      "vulnerabilities": [],
+      "linesScanned": 71,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\string_decoder\\lib\\string_decoder.js",
+      "vulnerabilities": [],
+      "linesScanned": 296,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\string_decoder\\node_modules\\safe-buffer\\index.d.ts",
+      "vulnerabilities": [],
+      "linesScanned": 187,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\string_decoder\\node_modules\\safe-buffer\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 63,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\supports-color\\browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 6,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\supports-color\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 132,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\to-regex-range\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 289,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\toidentifier\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 33,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\touch\\bin\\nodetouch.js",
+      "vulnerabilities": [],
+      "linesScanned": 113,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\touch\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 225,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\type-is\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 267,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\typedarray\\example\\tarray.js",
+      "vulnerabilities": [],
+      "linesScanned": 5,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\typedarray\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 631,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\typedarray\\test\\server\\undef_globals.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\typedarray\\test\\tarray.js",
+      "vulnerabilities": [],
+      "linesScanned": 11,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\undefsafe\\example.js",
+      "vulnerabilities": [],
+      "linesScanned": 15,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\undefsafe\\lib\\undefsafe.js",
+      "vulnerabilities": [],
+      "linesScanned": 126,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\unpipe\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 70,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\util-deprecate\\browser.js",
+      "vulnerabilities": [],
+      "linesScanned": 68,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\util-deprecate\\node.js",
+      "vulnerabilities": [],
+      "linesScanned": 7,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\utils-merge\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 24,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\vary\\index.js",
+      "vulnerabilities": [],
+      "linesScanned": 150,
+      "duration": 1
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\xtend\\immutable.js",
+      "vulnerabilities": [],
+      "linesScanned": 20,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\xtend\\mutable.js",
+      "vulnerabilities": [],
+      "linesScanned": 18,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\node_modules\\xtend\\test.js",
+      "vulnerabilities": [],
+      "linesScanned": 104,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js-15",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js",
+          "line": 15,
+          "column": 10,
+          "snippet": "return md5(password);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js-20",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js",
+          "line": 20,
+          "column": 16,
+          "snippet": "const hash = md5(password);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC020-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js-21",
+          "rule": "SEC020",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible SQL injection: user input concatenated into SQL query.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js",
+          "line": 21,
+          "column": 6,
+          "snippet": "db.query(`SELECT * FROM users WHERE username='${username}' AND password='${hash}'`, callback);",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-89",
+          "remediation": "Use parameterized queries or an ORM with proper escaping."
+        }
+      ],
+      "linesScanned": 56,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\config.js",
+      "vulnerabilities": [],
+      "linesScanned": 36,
+      "duration": 0
+    },
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+      "vulnerabilities": [
+        {
+          "id": "SEC002-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-74",
+          "rule": "SEC002",
+          "category": "Access Control",
+          "severity": "HIGH",
+          "message": "Route parameter used directly without visible authorization check (IDOR risk).",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 74,
+          "column": 14,
+          "snippet": "const id = req.params.id; // VULN: no type coercion (VAL003)",
+          "owaspCategory": "A01:2021 – Broken Access Control",
+          "cwe": "CWE-639",
+          "remediation": "Verify that the authenticated user owns or has permission to access the requested resource."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-34",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 34,
+          "column": 53,
+          "snippet": "cb(null, [{ id: 1, username: 'admin', password: md5('password123') }]);",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC010-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-50",
+          "rule": "SEC010",
+          "category": "Cryptography",
+          "severity": "HIGH",
+          "message": "MD5 is cryptographically broken. Do not use for integrity or password hashing.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 50,
+          "column": 26,
+          "snippet": "const hashedPassword = md5(password);    // VULN: MD5 password hashing (SEC006)",
+          "owaspCategory": "A02:2021 – Cryptographic Failures",
+          "cwe": "CWE-327",
+          "remediation": "Use SHA-256 or SHA-3 for integrity checks; use bcrypt/argon2 for passwords."
+        },
+        {
+          "id": "SEC021-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-153",
+          "rule": "SEC021",
+          "category": "Injection",
+          "severity": "CRITICAL",
+          "message": "Possible OS command injection: user input passed to shell execution.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 153,
+          "column": 3,
+          "snippet": "exec(`ping -c 1 ${host}`, (err, stdout) => {",
+          "owaspCategory": "A03:2021 – Injection",
+          "cwe": "CWE-78",
+          "remediation": "Never pass user input to shell commands. Use safe APIs or allowlist validation."
+        },
+        {
+          "id": "SEC030-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-48",
+          "rule": "SEC030",
+          "category": "Insecure Design",
+          "severity": "MEDIUM",
+          "message": "Authentication endpoint without visible rate limiting.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 48,
+          "column": 1,
+          "snippet": "app.post('/api/login', (req, res) => {",
+          "owaspCategory": "A04:2021 – Insecure Design",
+          "cwe": "CWE-770",
+          "remediation": "Apply express-rate-limit or similar middleware to auth endpoints."
+        },
+        {
+          "id": "SEC030-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-159",
+          "rule": "SEC030",
+          "category": "Insecure Design",
+          "severity": "MEDIUM",
+          "message": "Authentication endpoint without visible rate limiting.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 159,
+          "column": 1,
+          "snippet": "app.post('/api/reset-password', (req, res) => {",
+          "owaspCategory": "A04:2021 – Insecure Design",
+          "cwe": "CWE-770",
+          "remediation": "Apply express-rate-limit or similar middleware to auth endpoints."
+        },
+        {
+          "id": "SEC040-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-17",
+          "rule": "SEC040",
+          "category": "Security Misconfiguration",
+          "severity": "HIGH",
+          "message": "CORS wildcard (*) origin allows any domain to make cross-origin requests.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 17,
+          "column": 16,
+          "snippet": "app.use(cors({ origin: '*' }));",
+          "owaspCategory": "A05:2021 – Security Misconfiguration",
+          "cwe": "CWE-942",
+          "remediation": "Specify an explicit allowlist of trusted origins."
+        },
+        {
+          "id": "SEC042-C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js-14",
+          "rule": "SEC042",
+          "category": "Security Misconfiguration",
+          "severity": "MEDIUM",
+          "message": "Express app created without helmet middleware for security headers.",
+          "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+          "line": 14,
+          "column": 1,
+          "snippet": "const app = express();",
+          "owaspCategory": "A05:2021 – Security Misconfiguration",
+          "cwe": "CWE-693",
+          "remediation": "Add `app.use(helmet())` early in your middleware chain."
+        }
+      ],
+      "linesScanned": 175,
+      "duration": 1
+    }
+  ],
+  "passed": false
+}

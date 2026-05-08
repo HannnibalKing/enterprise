@@ -1,0 +1,23 @@
+{
+  "name": "@enterprise/input-validation-checker",
+  "version": "1.0.0",
+  "description": "Detects missing input validation and sanitization on Express/Fastify/NestJS route handlers — the #1 cause of injection vulnerabilities in AI-generated code",
+  "main": "dist/index.js",
+  "bin": {
+    "validation-checker": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}

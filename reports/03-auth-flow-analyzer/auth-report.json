@@ -1,0 +1,139 @@
+{
+  "reportId": "auth-1778111156803",
+  "timestamp": "2026-05-06T23:45:56.803Z",
+  "rootDir": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app",
+  "totalFiles": 3,
+  "findings": [
+    {
+      "id": "SES002-src\\auth.js-29",
+      "severity": "HIGH",
+      "category": "Session",
+      "title": "Session cookie not HttpOnly",
+      "message": "Session cookie has httpOnly: false — readable by JavaScript, vulnerable to XSS.",
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js",
+      "line": 29,
+      "snippet": "cookie: {",
+      "cwe": "CWE-1004",
+      "remediation": "Set httpOnly: true on all session cookies."
+    },
+    {
+      "id": "SES003-src\\auth.js-29",
+      "severity": "HIGH",
+      "category": "Session",
+      "title": "Session cookie not Secure in production",
+      "message": "Session cookie has secure: false — transmitted over HTTP in plaintext.",
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js",
+      "line": 29,
+      "snippet": "cookie: {",
+      "cwe": "CWE-614",
+      "remediation": "Set secure: process.env.NODE_ENV === \"production\"."
+    },
+    {
+      "id": "MFA001-src\\auth.js-18",
+      "severity": "INFO",
+      "category": "MFA",
+      "title": "No MFA implementation found",
+      "message": "Authentication code present but no TOTP/OTP/MFA library detected.",
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\auth.js",
+      "line": 18,
+      "snippet": "// VULN: No rate limiting on login (AUTH004)",
+      "cwe": "CWE-308",
+      "remediation": "Consider adding TOTP-based MFA (speakeasy, otplib) for high-value accounts."
+    },
+    {
+      "id": "JWT003-src\\server.js-59",
+      "severity": "HIGH",
+      "category": "JWT",
+      "title": "JWT missing expiry (expiresIn)",
+      "message": "JWT signed without expiresIn — tokens never expire, extending breach window indefinitely.",
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+      "line": 59,
+      "snippet": "const token = jwt.sign({ userId: results[0].id, role: 'admin' }, JWT_SECRET);",
+      "cwe": "CWE-613",
+      "remediation": "Add expiresIn: '15m' (access) and '7d' (refresh) to jwt.sign() options."
+    },
+    {
+      "id": "CSRF001-src\\server.js-48",
+      "severity": "HIGH",
+      "category": "CSRF",
+      "title": "No CSRF protection found",
+      "message": "Mutating route detected. Verify CSRF tokens (csurf / double-submit cookie) are enforced.",
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+      "line": 48,
+      "snippet": "app.post('/api/login', (req, res) => {",
+      "cwe": "CWE-352",
+      "remediation": "Use the csurf package or implement double-submit cookie pattern on state-changing routes."
+    },
+    {
+      "id": "PASS002-src\\server.js-160",
+      "severity": "HIGH",
+      "category": "Password",
+      "title": "Password reset token not time-limited",
+      "message": "Password reset token generated without visible expiry.",
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+      "line": 160,
+      "snippet": "const resetToken = Math.random().toString(36); // VULN: Math.random is not cryptographically secure",
+      "cwe": "CWE-640",
+      "remediation": "Reset tokens must expire within 15–60 minutes. Store hash + expiry timestamp."
+    },
+    {
+      "id": "MFA001-src\\server.js-48",
+      "severity": "INFO",
+      "category": "MFA",
+      "title": "No MFA implementation found",
+      "message": "Authentication code present but no TOTP/OTP/MFA library detected.",
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+      "line": 48,
+      "snippet": "app.post('/api/login', (req, res) => {",
+      "cwe": "CWE-308",
+      "remediation": "Consider adding TOTP-based MFA (speakeasy, otplib) for high-value accounts."
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "high": 5,
+    "medium": 0,
+    "low": 0,
+    "info": 2,
+    "total": 7
+  },
+  "coverageChecks": [
+    {
+      "name": "JWT library (jsonwebtoken)",
+      "description": "JWT library installed",
+      "present": true,
+      "severity": "HIGH"
+    },
+    {
+      "name": "Password hashing (bcrypt/argon2)",
+      "description": "Secure password hashing",
+      "present": false,
+      "severity": "HIGH"
+    },
+    {
+      "name": "Rate limiting",
+      "description": "Rate limiting to prevent brute force",
+      "present": false,
+      "severity": "HIGH"
+    },
+    {
+      "name": "CSRF protection",
+      "description": "CSRF mitigation on state-changing routes",
+      "present": false,
+      "severity": "HIGH"
+    },
+    {
+      "name": "Helmet (security headers)",
+      "description": "Helmet middleware for HTTP security headers",
+      "present": false,
+      "severity": "HIGH"
+    },
+    {
+      "name": "Session management",
+      "description": "Secure session handling",
+      "present": false,
+      "severity": "HIGH"
+    }
+  ],
+  "passed": false
+}

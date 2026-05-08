@@ -1,0 +1,161 @@
+{
+  "reportId": "contract-1778111156705",
+  "timestamp": "2026-05-06T23:45:56.705Z",
+  "specFile": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\openapi.yaml",
+  "sourceDir": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src",
+  "specTitle": "Vulnerable Enterprise App API",
+  "specVersion": "1.0.0",
+  "totalRoutesDefined": 3,
+  "totalRoutesFound": 14,
+  "issues": [
+    {
+      "severity": "WARNING",
+      "code": "SPEC004",
+      "message": "No securitySchemes defined. Document authentication methods."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route DELETE /api/admin/users/:id (..\\..\\vulnerable-app\\src\\server.js:73) is not documented in the API spec.",
+      "path": "/api/admin/users/:id",
+      "method": "DELETE",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route GET /api/search (..\\..\\vulnerable-app\\src\\server.js:85) is not documented in the API spec.",
+      "path": "/api/search",
+      "method": "GET",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route POST /api/users/:id/settings (..\\..\\vulnerable-app\\src\\server.js:92) is not documented in the API spec.",
+      "path": "/api/users/:id/settings",
+      "method": "POST",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route GET /api/files (..\\..\\vulnerable-app\\src\\server.js:99) is not documented in the API spec.",
+      "path": "/api/files",
+      "method": "GET",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route GET /api/orders (..\\..\\vulnerable-app\\src\\server.js:107) is not documented in the API spec.",
+      "path": "/api/orders",
+      "method": "GET",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route POST /api/upload (..\\..\\vulnerable-app\\src\\server.js:115) is not documented in the API spec.",
+      "path": "/api/upload",
+      "method": "POST",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route POST /api/newsletter (..\\..\\vulnerable-app\\src\\server.js:121) is not documented in the API spec.",
+      "path": "/api/newsletter",
+      "method": "POST",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route GET /api/transfer (..\\..\\vulnerable-app\\src\\server.js:128) is not documented in the API spec.",
+      "path": "/api/transfer",
+      "method": "GET",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route POST /api/calculate (..\\..\\vulnerable-app\\src\\server.js:134) is not documented in the API spec.",
+      "path": "/api/calculate",
+      "method": "POST",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route GET /api/ping (..\\..\\vulnerable-app\\src\\server.js:150) is not documented in the API spec.",
+      "path": "/api/ping",
+      "method": "GET",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "ERROR",
+      "code": "COV002",
+      "message": "Route POST /api/reset-password (..\\..\\vulnerable-app\\src\\server.js:159) is not documented in the API spec.",
+      "path": "/api/reset-password",
+      "method": "POST",
+      "detail": "Add this route to your OpenAPI spec or remove the undocumented endpoint."
+    },
+    {
+      "severity": "WARNING",
+      "code": "AUTH001",
+      "message": "POST /api/login has no security requirement defined. Mark as public ({}) or add a security scheme.",
+      "path": "/api/login",
+      "method": "POST"
+    },
+    {
+      "severity": "WARNING",
+      "code": "AUTH001",
+      "message": "GET /api/profile has no security requirement defined. Mark as public ({}) or add a security scheme.",
+      "path": "/api/profile",
+      "method": "GET"
+    },
+    {
+      "severity": "WARNING",
+      "code": "AUTH001",
+      "message": "GET /api/users has no security requirement defined. Mark as public ({}) or add a security scheme.",
+      "path": "/api/users",
+      "method": "GET"
+    },
+    {
+      "severity": "WARNING",
+      "code": "RESP002",
+      "message": "POST /api/login mutates data but is missing a 400 (Bad Request) response.",
+      "path": "/api/login",
+      "method": "POST"
+    },
+    {
+      "severity": "INFO",
+      "code": "RESP003",
+      "message": "POST /api/login is missing a 500 (Internal Server Error) response.",
+      "path": "/api/login",
+      "method": "POST"
+    },
+    {
+      "severity": "INFO",
+      "code": "RESP003",
+      "message": "GET /api/profile is missing a 500 (Internal Server Error) response.",
+      "path": "/api/profile",
+      "method": "GET"
+    },
+    {
+      "severity": "INFO",
+      "code": "RESP003",
+      "message": "GET /api/users is missing a 500 (Internal Server Error) response.",
+      "path": "/api/users",
+      "method": "GET"
+    }
+  ],
+  "summary": {
+    "errors": 11,
+    "warnings": 5,
+    "info": 3,
+    "total": 19
+  },
+  "passed": false
+}

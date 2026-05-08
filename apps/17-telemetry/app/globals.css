@@ -1,0 +1,11 @@
+:root {
+  --bg:#020804; --surface:#040e06; --surface2:#06150a; --border:#0a2010;
+  --accent:#22c55e; --accent2:#16a34a; --text:#c8f0d8; --text-soft:#307050; --text-muted:#103020;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;min-height:100vh}
+a{color:inherit;text-decoration:none}
+input,button{font-family:inherit}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:var(--surface)}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}

@@ -1,0 +1,24 @@
+{
+  "name": "@enterprise/cors-header-inspector",
+  "version": "1.0.0",
+  "description": "Inspect live HTTP security headers (CORS, CSP, HSTS, X-Frame-Options, etc.) and perform static analysis of CORS configuration in Express/Fastify source",
+  "main": "dist/index.js",
+  "bin": {
+    "header-inspector": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}

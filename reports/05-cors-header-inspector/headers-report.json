@@ -1,0 +1,16 @@
+{
+  "reportId": "headers-1778111157071",
+  "timestamp": "2026-05-06T23:45:57.071Z",
+  "liveResults": [],
+  "staticResults": [
+    {
+      "file": "C:\\Users\\hanni\\Documents\\projects\\Enterprise\\vulnerable-app\\src\\server.js",
+      "line": 17,
+      "issue": "CORS wildcard origin (*) in configuration",
+      "severity": "HIGH",
+      "snippet": "app.use(cors({ origin: '*' }));",
+      "remediation": "Replace '*' with an explicit allowlist: ['https://app.example.com']"
+    }
+  ],
+  "passed": false
+}

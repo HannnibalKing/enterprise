@@ -1,0 +1,24 @@
+{
+  "name": "@enterprise/auth-flow-analyzer",
+  "version": "1.0.0",
+  "description": "Deep inspection of JWT, session, OAuth 2.0, and cookie security configurations in AI-generated codebases",
+  "main": "dist/index.js",
+  "bin": {
+    "auth-analyzer": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "glob": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}

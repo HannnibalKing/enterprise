@@ -1,0 +1,66 @@
+:root {
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --surface2: #263248;
+  --border: #334155;
+  --accent: #6366f1;
+  --accent-light: rgba(99, 102, 241, 0.12);
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --info: #38bdf8;
+  --critical: #f43f5e;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+
+input, textarea, select {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface2);
+  color: var(--text);
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+input:focus, textarea:focus, select:focus { border-color: var(--accent); }
+button { cursor: pointer; font-size: 13px; font-family: inherit; transition: all 0.15s; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary { background: var(--accent); color: #fff; border: 1px solid transparent; border-radius: 6px; padding: 6px 14px; font-weight: 600; }
+.btn-primary:hover:not(:disabled) { background: #818cf8; }
+.btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 14px; }
+.btn-secondary:hover:not(:disabled) { background: var(--border); }
+.btn-danger { background: rgba(248,113,113,0.12); color: var(--danger); border: 1px solid rgba(248,113,113,0.3); border-radius: 6px; padding: 6px 14px; }
+.btn-danger:hover:not(:disabled) { background: rgba(248,113,113,0.2); }
+.btn-ghost { background: none; border: none; color: var(--text-muted); padding: 4px 8px; border-radius: 4px; }
+.btn-ghost:hover { background: var(--surface2); color: var(--text); }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+
+/* Priority colors */
+.priority-low      { color: var(--text-muted); }
+.priority-medium   { color: var(--info); }
+.priority-high     { color: var(--warning); }
+.priority-critical { color: var(--critical); }
+
+.badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+.badge-low      { background: rgba(148,163,184,0.15); color: var(--text-muted); }
+.badge-medium   { background: rgba(56,189,248,0.15); color: var(--info); }
+.badge-high     { background: rgba(251,191,36,0.15); color: var(--warning); }
+.badge-critical { background: rgba(244,63,94,0.15); color: var(--critical); }
+.badge-in_app   { background: var(--accent-light); color: var(--accent); }
+.badge-email    { background: rgba(52,211,153,0.12); color: var(--success); }
+.badge-slack    { background: rgba(99,102,241,0.12); color: #818cf8; }
+.badge-sms      { background: rgba(251,191,36,0.12); color: var(--warning); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }

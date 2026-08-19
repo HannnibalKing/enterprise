@@ -1,6 +1,6 @@
 # Enterprise — Full-Stack App Portfolio
 
-A portfolio of **24 enterprise-grade web applications** and **10 security audit tools**, all built with Next.js 15, TypeScript, and JWT authentication.
+A portfolio of **35 enterprise web applications** and **10 security audit tools**. The repository contains runnable demos, architecture examples, and intentionally vulnerable fixtures; individual status and limitations are documented in the project documentation.
 
 ---
 
@@ -8,7 +8,7 @@ A portfolio of **24 enterprise-grade web applications** and **10 security audit 
 
 ```
 Enterprise/
-├── apps/                     # 24 Next.js 15 applications (00–23)
+├── apps/                     # 35 applications (00–33; 05 has two legacy app names)
 │   ├── 00-dashboard/         # Executive KPI dashboard
 │   ├── 01-kanban/            # Project management board
 │   ├── 02-hr-portal/         # HR & payroll
@@ -48,11 +48,11 @@ Enterprise/
 │   └── 10-security-dashboard/
 │
 ├── docs/
-│   ├── APPS.md               # Full reference for all 24 apps
+│   ├── APPS.md               # Full reference for all 35 apps
 │   └── TOOLS.md              # Full reference for all 10 security tools
 │
 ├── reports/                  # Output directory for security scan reports
-├── run-all-scans.js          # Orchestrates all 9 CLI tools against a target
+├── run-all-scans.js          # Orchestrates 7 static CLI scans against a target
 └── vulnerable-app/           # Intentionally vulnerable app for tool testing
 ```
 
@@ -70,37 +70,6 @@ cd apps/00-dashboard
 npm install
 npm run dev     # dev server with hot reload → http://localhost:3000
 ```
-
-### Login credentials
-Every app uses `admin` as the username. Passwords vary per app:
-
-| App | Password | Port |
-|-----||------|
-| 00-dashboard | `` | 3000 |
-| 01-kanban | `` | 3001 |
-| 02-hr-portal | `` | 3002 |
-| 03-document-mgmt | `` | 3003 |
-| 04-notifications | `` | 3004 |
-| 05-casino | `` | 3005 |
-| 05-crm | `` | 3005 |
-| 06-trading | `` | 3006 |
-| 07-health | `` | 3007 |
-| 08-supply-chain | `` | 3008 |
-| 09-realty | `` | 3009 |
-| 10-legal | `` | 3010 |
-| 11-manufacturing | `` | 3011 |
-| 12-finance | `` | 3012 |
-| 13-pmo | `` | 3013 |
-| 14-mission-control | `` | 3014 |
-| 15-launch-ops | `` | 3015 |
-| 16-orbital | `` | 3016 |
-| 17-telemetry | `` | 3017 |
-| 18-crew | `` | 3018 |
-| 19-propulsion | `` | 3019 |
-| 20-payload | `` | 3020 |
-| 21-range | `` | 3021 |
-| 22-dsn | `` | 3022 |
-| 23-fleet | `` | 3023 |
 
 ### Build for production
 ```bash
@@ -127,6 +96,8 @@ node run-all-scans.js --target ./apps/14-mission-control
 # Reports saved to reports/<timestamp>/
 ```
 
+The orchestrator installs dependencies from each tool's lockfile and builds the seven static scanners before execution. A nonzero scanner result means findings were detected and is recorded in the JSON report; it does not mean the orchestrator failed. The API traffic monitor and TLS auditor require a live endpoint and are run separately.
+
 ### View results in the dashboard
 ```bash
 cd testing/10-security-dashboard
@@ -142,7 +113,7 @@ See [docs/TOOLS.md](docs/TOOLS.md) for the full reference.
 
 ## Tech Stack
 
-### Apps (all 24)
+### Apps (all 35)
 | Layer | Technology |
 |-------|-|
 | Framework | Next.js 15.3 (App Router) |
@@ -167,6 +138,6 @@ See [docs/TOOLS.md](docs/TOOLS.md) for the full reference.
 
 ## Documentation
 
-- [docs/APPS.md](docs/APPS.md) — Architecture deep-dive and page-by-page reference for all 24 apps
+- [docs/APPS.md](docs/APPS.md) — Architecture deep-dive and page-by-page reference for all 35 apps
 - [docs/TOOLS.md](docs/TOOLS.md) — Installation, usage, and examples for all 10 security tools
 - [testing/README.md](testing/README.md) — Security suite quick-start and CLI cheatsheet

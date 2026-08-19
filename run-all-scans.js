@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * run-all-scans.js
- * Master script — runs all 9 Enterprise security tools against the vulnerable-app
+ * Master script — runs the 7 static Enterprise security tools against the vulnerable-app
  * and saves JSON reports into reports/ for the security dashboard.
  *
  * Usage:  node run-all-scans.js [--target <dir>] [--reports <dir>]
@@ -83,11 +83,33 @@ async function main() {
   fs.mkdirSync(REPORTS_DIR, { recursive: true });
 
   const results = [];
+  const builtTools = new Set();
+
+  for (const scan of scans) {
+    const toolDir = path.join(TESTING_DIR, scan.id);
+    if (!fs.existsSync(toolDir)) continue;
+
+    log(CYAN, `  Building ${scan.id}...`);
+    try {
+      const installCommand = fs.existsSync(path.join(toolDir, 'package-lock.json'))
+        ? 'npm ci'
+        : 'npm install';
+      execSync(`${installCommand} && npm run build`, { cwd: toolDir, stdio: 'pipe' });
+      builtTools.add(scan.id);
+    } catch (err) {
+      const detail = err.stderr?.toString().trim().split('\n')[0] ?? err.message;
+      log(RED, `  Build failed for ${scan.id}: ${detail}`);
+    }
+  }
 
   for (const scan of scans) {
     const toolDir = path.join(TESTING_DIR, scan.id);
     if (!fs.existsSync(toolDir)) {
       log(YELLOW, `  ⚠  Skipping ${scan.label} — tool directory not found`);
+      continue;
+    }
+    if (!builtTools.has(scan.id)) {
+      log(YELLOW, `  Skipping ${scan.label} — build failed`);
       continue;
     }
 
@@ -127,6 +149,7 @@ async function main() {
     }
   }
 
+  // The traffic monitor and TLS auditor require a live endpoint and are run separately.
   // ── Summary table ──────────────────────────────────────────────────────────
   log(CYAN, '\n╔══════════════════════════════════════════════════════════╗');
   log(CYAN, '║                    SCAN COMPLETE                         ║');

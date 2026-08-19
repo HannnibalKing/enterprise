@@ -1,0 +1,10 @@
+{
+  "name": "enterprise-portfolio",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-portfolio.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

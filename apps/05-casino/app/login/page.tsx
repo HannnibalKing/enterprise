@@ -108,8 +108,6 @@ export default function LoginPage() {
                 color: 'var(--text)', fontSize: 14,
               }}
             />
-            <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 6 }}>
-            </div>
           </div>
 
           {error && (

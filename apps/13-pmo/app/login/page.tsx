@@ -36,7 +36,7 @@ export default function LoginPage() {
           <div>
             <label style={{ display: 'block', fontSize: 10, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 6 }}>Password</label>
             <input type="password" value={password} onChange={e => setPassword(e.target.value)}
-              placeholder="" style={{ width: '100%', padding: '10px 12px', background: 'var(--surface2)', border: '1px solid var(--border)', borderRadius: 7, color: 'var(--text)', fontSize: 13 }} />
+ style={{ width: '100%', padding: '10px 12px', background: 'var(--surface2)', border: '1px solid var(--border)', borderRadius: 7, color: 'var(--text)', fontSize: 13 }} />
           </div>
           {error && <div style={{ padding: '8px 12px', background: 'var(--red-dim)', color: 'var(--red)', borderRadius: 6, fontSize: 12 }}>{error}</div>}
           <button type="submit" disabled={loading}

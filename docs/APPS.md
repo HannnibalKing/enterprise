@@ -33,6 +33,9 @@ All 24 apps live in `apps/`. Each is a standalone **Next.js 15 App Router** proj
 4. Subsequent requests carry the cookie → middleware validates with **jose** `jwtVerify`
 
 ### Running a Single App
+
+Authenticated demos require locally configured `JWT_SECRET` and `DEMO_PASSWORD` environment variables. See [Local authentication configuration](../README.md#local-authentication-configuration) before starting an app.
+
 ```bash
 cd apps/<app-folder>
 npm install
@@ -197,7 +200,7 @@ Project Management Office tracking programmes, projects, risks, and resources.
 
 ## Apps 14–23 — Space & Aerospace Operations Suite
 
-All space apps share the same auth architecture. The cookie name and default password differ per app (see table below).
+All space apps share the same auth architecture. Each seeded account uses the local `DEMO_PASSWORD`; cookie names are listed below.
 
 | # | App | Cookie | Accent |
 |---|-----|--------|--------|

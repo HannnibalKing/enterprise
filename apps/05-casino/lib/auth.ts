@@ -2,21 +2,24 @@ import { SignJWT, jwtVerify } from 'jose';
 import { cookies } from 'next/headers';
 
 const COOKIE_NAME = 'palazzo_session';
-const SECRET = new TextEncoder().encode(
-  process.env.JWT_SECRET ?? (() => { throw new Error('JWT_SECRET must be configured'); })()
-);
+function getSecret() {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) throw new Error('JWT_SECRET must be configured');
+  return new TextEncoder().encode(secret);
+}
 
 export async function signToken(payload: { userId: string }): Promise<string> {
   return new SignJWT(payload)
     .setProtectedHeader({ alg: 'HS256' })
     .setIssuedAt()
     .setExpirationTime('12h')
-    .sign(SECRET);
+    .sign(getSecret());
 }
 
 export async function verifyToken(token: string): Promise<{ userId: string } | null> {
+  const secret = getSecret();
   try {
-    const { payload } = await jwtVerify(token, SECRET);
+    const { payload } = await jwtVerify(token, secret);
     return { userId: payload.userId as string };
   } catch {
     return null;

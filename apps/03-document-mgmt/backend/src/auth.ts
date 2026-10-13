@@ -2,7 +2,11 @@ import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 import { AuthPayload } from './types';
 
-export const JWT_SECRET = process.env.JWT_SECRET || (() => { throw new Error('JWT_SECRET must be configured'); })();
+export function getJwtSecret(): string {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) throw new Error('JWT_SECRET must be configured');
+  return secret;
+}
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
@@ -14,8 +18,14 @@ declare global {
 export function authMiddleware(req: Request, res: Response, next: NextFunction): void {
   const header = req.headers.authorization;
   if (!header?.startsWith('Bearer ')) { res.status(401).json({ error: 'Missing token' }); return; }
+  const secret = getJwtSecret();
   try {
-    req.user = jwt.verify(header.slice(7), JWT_SECRET) as AuthPayload;
+    const payload = jwt.verify(header.slice(7), secret);
+    if (typeof payload === 'string' || typeof payload.userId !== 'string') {
+      res.status(401).json({ error: 'Invalid token' });
+      return;
+    }
+    req.user = { userId: payload.userId };
     next();
   } catch {
     res.status(401).json({ error: 'Invalid token' });

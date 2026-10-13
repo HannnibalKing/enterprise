@@ -49,8 +49,6 @@ export default function LoginPage({ onLogin }: { onLogin: (user: User) => void }
             {loading ? 'Signing in…' : 'Sign In'}
           </button>
         </form>
-        <p style={{ textAlign: 'center', color: 'var(--text-muted)', fontSize: 12, marginTop: 14 }}>
-        </p>
       </div>
     </div>
   );

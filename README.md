@@ -71,6 +71,19 @@ npm install
 npm run dev     # dev server with hot reload → http://localhost:3000
 ```
 
+### Local authentication configuration
+
+Demo passwords and JWT signing secrets are not stored in this repository. The seeded accounts use `DEMO_PASSWORD` when set; otherwise, a fresh random password is generated at startup. Set both environment variables locally before starting an authenticated demo. Do not commit `.env` files or expose these values in logs, screenshots, or issue reports.
+
+For PowerShell, generate process-local values before running the app:
+
+```powershell
+$env:JWT_SECRET = [Convert]::ToBase64String([Security.Cryptography.RandomNumberGenerator]::GetBytes(32))
+$env:DEMO_PASSWORD = [Convert]::ToBase64String([Security.Cryptography.RandomNumberGenerator]::GetBytes(24))
+```
+
+Some seeded demo users are available from the app's login screen. These in-memory examples are for local learning only; configure a secret manager, managed user store, and unique credentials before any deployment.
+
 ### Build for production
 ```bash
 cd apps/<app-name>
@@ -115,7 +128,7 @@ See [docs/TOOLS.md](docs/TOOLS.md) for the full reference.
 
 ### Apps (all 35)
 | Layer | Technology |
-|-------|-|
+|-------|-----------|
 | Framework | Next.js 15.3 (App Router) |
 | Language | TypeScript 5 (strict mode) |
 | Auth | jose v5 (JWT HS256, 12h expiry) + bcryptjs |
@@ -126,7 +139,7 @@ See [docs/TOOLS.md](docs/TOOLS.md) for the full reference.
 
 ### Security Tools
 | Layer | Technology |
-|-------|-|
+|-------|-----------|
 | Runtime | Node.js 20 |
 | Language | TypeScript |
 | CLI framework | commander / yargs |

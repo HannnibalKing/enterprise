@@ -2,7 +2,7 @@ import { Router } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { getUserByEmail, users } from '../store';
-import { authMiddleware, JWT_SECRET } from '../auth';
+import { authMiddleware, getJwtSecret } from '../auth';
 
 const router = Router();
 
@@ -13,7 +13,7 @@ router.post('/login', async (req, res) => {
   if (!user || !(await bcrypt.compare(password, user.passwordHash))) {
     res.status(401).json({ error: 'Invalid credentials' }); return;
   }
-  const token = jwt.sign({ userId: user.id }, JWT_SECRET, { expiresIn: '24h' });
+  const token = jwt.sign({ userId: user.id }, getJwtSecret(), { expiresIn: '24h' });
   const { passwordHash: _, ...safe } = user;
   res.json({ token, user: safe });
 });

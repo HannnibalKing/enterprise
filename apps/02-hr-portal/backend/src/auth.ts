@@ -1,8 +1,19 @@
 import { Request, Response, NextFunction } from 'express';
-import jwt from 'jsonwebtoken';
+import jwt, { type JwtPayload } from 'jsonwebtoken';
 import { AuthPayload } from './types';
 
-export const JWT_SECRET = process.env.JWT_SECRET || (() => { throw new Error('JWT_SECRET must be configured'); })();
+export function getJwtSecret(): string {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) throw new Error('JWT_SECRET must be configured');
+  return secret;
+}
+
+function isAuthPayload(payload: string | JwtPayload): payload is JwtPayload & AuthPayload {
+  return typeof payload !== 'string'
+    && typeof payload.userId === 'string'
+    && typeof payload.employeeId === 'string'
+    && (payload.role === 'hr_admin' || payload.role === 'manager' || payload.role === 'employee');
+}
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
@@ -19,8 +30,13 @@ export function authMiddleware(req: Request, res: Response, next: NextFunction):
     res.status(401).json({ error: 'Missing token' });
     return;
   }
+  const secret = getJwtSecret();
   try {
-    const payload = jwt.verify(header.slice(7), JWT_SECRET) as AuthPayload;
+    const payload = jwt.verify(header.slice(7), secret);
+    if (!isAuthPayload(payload)) {
+      res.status(401).json({ error: 'Invalid token' });
+      return;
+    }
     req.user = payload;
     next();
   } catch {

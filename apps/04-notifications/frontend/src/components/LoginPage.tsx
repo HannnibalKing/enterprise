@@ -42,7 +42,7 @@ export default function LoginPage({ onLogin }: { onLogin: (user: User) => void }
           </div>
           <div>
             <label style={{ fontSize: 11, color: 'var(--text-muted)', display: 'block', marginBottom: 5 }}>PASSWORD</label>
-            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="" autoComplete="current-password" />
+            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password" />
           </div>
           {error && <p style={{ color: 'var(--danger)', fontSize: 12 }}>{error}</p>}
           <button type="submit" className="btn-primary" disabled={loading} style={{ marginTop: 4, padding: '9px' }}>

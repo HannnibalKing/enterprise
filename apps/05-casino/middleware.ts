@@ -1,9 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { jwtVerify } from 'jose';
 
-const SECRET = new TextEncoder().encode(
-  process.env.JWT_SECRET ?? (() => { throw new Error('JWT_SECRET must be configured'); })()
-);
+function getSecret() {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) throw new Error('JWT_SECRET must be configured');
+  return new TextEncoder().encode(secret);
+}
 const COOKIE_NAME = 'palazzo_session';
 
 export async function middleware(req: NextRequest) {
@@ -22,8 +24,9 @@ export async function middleware(req: NextRequest) {
     return NextResponse.redirect(new URL('/login', req.url));
   }
 
+  const secret = getSecret();
   try {
-    await jwtVerify(token, SECRET);
+    await jwtVerify(token, secret);
     return NextResponse.next();
   } catch {
     const res = NextResponse.redirect(new URL('/login', req.url));

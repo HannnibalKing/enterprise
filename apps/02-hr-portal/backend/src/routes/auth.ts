@@ -2,7 +2,7 @@ import { Router } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { getUserByEmail, employees } from '../store';
-import { authMiddleware, JWT_SECRET } from '../auth';
+import { authMiddleware, getJwtSecret } from '../auth';
 
 const router = Router();
 
@@ -19,7 +19,7 @@ router.post('/login', async (req, res) => {
 
   const token = jwt.sign(
     { userId: user.id, employeeId: user.employeeId, role: user.role },
-    JWT_SECRET,
+    getJwtSecret(),
     { expiresIn: '24h' }
   );
   const emp = employees.get(user.employeeId);

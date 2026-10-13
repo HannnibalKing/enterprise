@@ -2,7 +2,7 @@ import { Router, Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { getUserByEmail, sanitizeUser } from '../store';
-import { JWT_SECRET } from '../auth';
+import { getJwtSecret } from '../auth';
 
 const router = Router();
 
@@ -25,7 +25,7 @@ router.post('/login', async (req: Request, res: Response) => {
   }
   const token = jwt.sign(
     { userId: user.id, email: user.email, role: user.role },
-    JWT_SECRET,
+    getJwtSecret(),
     { expiresIn: '24h' }
   );
   res.json({ token, user: sanitizeUser(user) });
@@ -35,8 +35,12 @@ router.post('/login', async (req: Request, res: Response) => {
 router.get('/me', (req: Request, res: Response) => {
   const header = req.headers.authorization;
   if (!header?.startsWith('Bearer ')) { res.status(401).json({ error: 'Unauthorized' }); return; }
+  const secret = getJwtSecret();
   try {
-    const payload = jwt.verify(header.slice(7), JWT_SECRET) as { userId: string };
+    const payload = jwt.verify(header.slice(7), secret);
+    if (typeof payload === 'string' || typeof payload.userId !== 'string') {
+      res.status(401).json({ error: 'Invalid token' }); return;
+    }
     const { users } = require('../store');
     const user = users.get(payload.userId);
     if (!user) { res.status(404).json({ error: 'User not found' }); return; }

@@ -43,6 +43,9 @@ router.post('/', requireRole('hr_admin'), async (req, res) => {
   if (!data.firstName || !data.lastName || !data.email || !data.departmentId) {
     res.status(400).json({ error: 'firstName, lastName, email, departmentId required' }); return;
   }
+  if (typeof data.password !== 'string' || data.password.length < 12) {
+    res.status(400).json({ error: 'password must be at least 12 characters' }); return;
+  }
   const empId = uuid();
   const usrId = uuid();
   const emp: Employee = {

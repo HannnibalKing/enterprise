@@ -11,10 +11,10 @@ import {
 const tokenCache = new Map<string, { token: string; expires: number }>();
 
 const BACKENDS = {
-  kanban:        { url: 'http://localhost:4001', email: 'alice@enterprise.dev', password: '' },
-  hr:            { url: 'http://localhost:4002', email: 'carol@company.com',    password: '' },
-  docs:          { url: 'http://localhost:4003', email: 'alice@docs.com',       password: '' },
-  notifications: { url: 'http://localhost:4004', email: 'alice@notify.com',     password: '' },
+  kanban:        { url: 'http://localhost:4001', email: 'alice@enterprise.dev' },
+  hr:            { url: 'http://localhost:4002', email: 'carol@company.com' },
+  docs:          { url: 'http://localhost:4003', email: 'alice@docs.com' },
+  notifications: { url: 'http://localhost:4004', email: 'alice@notify.com' },
 } as const;
 
 type BackendKey = keyof typeof BACKENDS;
@@ -22,7 +22,9 @@ type BackendKey = keyof typeof BACKENDS;
 async function getToken(key: BackendKey): Promise<string | null> {
   const cached = tokenCache.get(key);
   if (cached && cached.expires > Date.now()) return cached.token;
-  const { url, email, password } = BACKENDS[key];
+  const { url, email } = BACKENDS[key];
+  const password = process.env.DEMO_PASSWORD;
+  if (!password) throw new Error('DEMO_PASSWORD must be configured to load dashboard metrics');
   try {
     const res = await fetch(`${url}/api/auth/login`, {
       method: 'POST',

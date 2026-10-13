@@ -51,7 +51,7 @@ export default function LoginPage({ onLogin }: Props) {
           </div>
           <div>
             <label style={{ fontSize: 12, color: 'var(--text-muted)', display: 'block', marginBottom: 6 }}>PASSWORD</label>
-            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="" />
+            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
           </div>
 
           {error && (
@@ -69,8 +69,6 @@ export default function LoginPage({ onLogin }: Props) {
           </button>
         </form>
 
-        <p style={{ color: 'var(--text-muted)', fontSize: 12, textAlign: 'center', marginTop: 20 }}>
-        </p>
       </div>
     </div>
   );

@@ -36,9 +36,6 @@ server.listen(PORT, () => {
   console.log(`\n🟣 Kanban API  →  http://localhost:${PORT}`);
   console.log(`   WebSocket   →  ws://localhost:${PORT}`);
   console.log(`\n   Demo users:`);
-  console.log(`     alice@enterprise.dev  /    (admin)`);
-  console.log(`     bob@enterprise.dev    /    (member)`);
-  console.log(`     carol@enterprise.dev  /    (member)\n`);
 });
 
 export default app;
